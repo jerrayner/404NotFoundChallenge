@@ -1,0 +1,151 @@
+body {
+background-color: #ffffff;
+}
+
+.top {
+position: absolute;
+width: 200px;
+height: 25px;
+left: 77px;
+top: 40px;
+font-family: 'Inconsolata', monospace;
+font-weight: 800px;
+font-size: 26px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+font-style: bold;
+}
+
+section img {
+  width: 540px;
+  height: 414.25;
+  display: absolute;
+  margin-left: 77px;
+  margin-top: 200px;
+  bottom: 400.75px;
+  right: 523px;
+}
+h1 {
+  display: block;
+  position: absolute;
+  width: 700px;
+  height: 190px;
+  left: 860px;
+  top: 230px;
+  font-family: 'Space Mono', monospace;
+  font-size: 70px;
+  font-weight: 700px;
+  line-height: 94.54px;
+  letter-spacing: 3.5%;
+  color: #333333;
+}
+
+#errorMsg {
+  font-family: 'Space Mono', 'Courier New', Courier, monospace;
+  font-size: 19px;
+  line-height: 35.54px;
+  letter-spacing: 1%;
+  color: #4F4F4F;
+}
+.errorMsg {
+  margin: auto;
+  position: absolute;
+  left: 860px;
+  top: 500px;
+  width: 315px;
+  height: 108px;
+  line-height: 35px;
+  letter-spacing: -3.5%;
+  font-weight: 400px;
+  
+}
+button {
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  top: 655px;
+  left: 860px;
+  background-color: #333333;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+ font-size: 14px; 
+}
+.buttom {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  top: 850px;
+  left: 750px;
+  align-items: center;
+}
+.created {
+  font-family: 'Montserrat';
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 17.07px;
+  text-align: center;
+  color: #b2b2b2;
+  
+}
+.linkFooter {
+  text-decoration: none;
+}
+@media (min-width: 200px) and (max-width: 600px) {
+ #scarecrow {
+   width: 286.83px;
+   height: auto;
+   position: absolute;
+   left: 5px;
+   
+ }
+ .top {
+   font-size: 24px;
+   line-height: 25.18px;
+   letter-spacing: -8%;
+   margin-top: -10px;
+ }
+ h1 {
+   font-size: 48px;
+   line-height: 71.09px;
+   letter-spacing: -3.5%;
+   width: 380px;
+   height: 142px;
+   display: block;
+   position: absolute;
+   left: 24px;
+   top: 300px;
+   text-align: center;
+ }
+ .errorMsg {
+   position: absolute;
+   width: 328px;
+   height: 81px;
+   top: 490px;
+   left:23px;
+   font-size: 17px;
+   line-height: 26.66px;
+   letter-spacing: -3.5%;
+   text-align: center;
+ }
+ button {
+   width: 216px;
+   height: 62px;
+   position: absolute;
+   top: 620px;
+   left: 100px;
+ }
+ footer {
+   width: 287px;
+   height: 17px;
+   top: 700px;
+   left: 46px;
+   font-size: 14px;
+   text-align: center;
+ }
+}
