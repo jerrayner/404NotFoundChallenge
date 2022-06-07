@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;800&family=Montserrat:wght@300;700&family=Space+Mono:wght@400;700&display=swap');
+
 body {
 background-color: #ffffff;
+margin:0;
+padding: 0;
+box-sizing: border-box;
 }
 
 .top {
@@ -18,8 +23,8 @@ font-style: bold;
 }
 
 section img {
-  width: 540px;
-  height: 414.25;
+  width: 500px;
+  height: 414.25px;
   display: absolute;
   margin-left: 77px;
   margin-top: 200px;
@@ -29,12 +34,12 @@ section img {
 h1 {
   display: block;
   position: absolute;
-  width: 700px;
+  width: 500px;
   height: 190px;
-  left: 860px;
+  left: 700px;
   top: 230px;
   font-family: 'Space Mono', monospace;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 700px;
   line-height: 94.54px;
   letter-spacing: 3.5%;
@@ -51,7 +56,7 @@ h1 {
 .errorMsg {
   margin: auto;
   position: absolute;
-  left: 860px;
+  left: 700px;
   top: 500px;
   width: 315px;
   height: 108px;
@@ -65,7 +70,7 @@ button {
   width: 216px;
   height: 68px;
   top: 655px;
-  left: 860px;
+  left: 700px;
   background-color: #333333;
   color: white;
   text-transform: uppercase;
@@ -81,7 +86,8 @@ footer {
   width: 287px;
   height: 17px;
   top: 850px;
-  left: 750px;
+  left: 580px;
+  bottom: 20px;
   align-items: center;
 }
 .created {
@@ -96,12 +102,13 @@ footer {
 .linkFooter {
   text-decoration: none;
 }
-@media (min-width: 200px) and (max-width: 600px) {
+@media (min-width: 200px) and (max-width: 850px) {
  #scarecrow {
    width: 286.83px;
    height: auto;
    position: absolute;
    left: 5px;
+   top: -90px;
    
  }
  .top {
@@ -111,14 +118,14 @@ footer {
    margin-top: -10px;
  }
  h1 {
-   font-size: 48px;
+   font-size: 40px;
    line-height: 71.09px;
    letter-spacing: -3.5%;
    width: 380px;
    height: 142px;
-   display: block;
+   display: inline-block;
    position: absolute;
-   left: 24px;
+   left: 20px;
    top: 300px;
    text-align: center;
  }
@@ -128,7 +135,7 @@ footer {
    height: 81px;
    top: 490px;
    left:23px;
-   font-size: 17px;
+   font-size: 10px;
    line-height: 26.66px;
    letter-spacing: -3.5%;
    text-align: center;
