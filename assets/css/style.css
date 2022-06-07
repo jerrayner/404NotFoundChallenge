@@ -27,7 +27,7 @@ section img {
   height: 414.25px;
   display: absolute;
   margin-left: 77px;
-  margin-top: 200px;
+  margin-top: 100px;
   bottom: 400.75px;
   right: 523px;
 }
@@ -37,7 +37,7 @@ h1 {
   width: 500px;
   height: 190px;
   left: 700px;
-  top: 230px;
+  top: 130px;
   font-family: 'Space Mono', monospace;
   font-size: 50px;
   font-weight: 700px;
@@ -57,7 +57,7 @@ h1 {
   margin: auto;
   position: absolute;
   left: 700px;
-  top: 500px;
+  top: 350px;
   width: 315px;
   height: 108px;
   line-height: 35px;
@@ -69,8 +69,8 @@ button {
   position: absolute;
   width: 216px;
   height: 68px;
-  top: 655px;
-  left: 700px;
+  top: 500px;
+  left: 730px;
   background-color: #333333;
   color: white;
   text-transform: uppercase;
@@ -85,7 +85,7 @@ footer {
   position: absolute;
   width: 287px;
   height: 17px;
-  top: 850px;
+  top: 630px;
   left: 580px;
   bottom: 20px;
   align-items: center;
@@ -108,14 +108,14 @@ footer {
    height: auto;
    position: absolute;
    left: 5px;
-   top: -90px;
-   
+   top: 0px;
+   margin-top: 60px;
  }
  .top {
    font-size: 24px;
    line-height: 25.18px;
    letter-spacing: -8%;
-   margin-top: -10px;
+   
  }
  h1 {
    font-size: 40px;
@@ -126,15 +126,15 @@ footer {
    display: inline-block;
    position: absolute;
    left: 20px;
-   top: 300px;
+   top: 250px;
    text-align: center;
  }
  .errorMsg {
    position: absolute;
    width: 328px;
    height: 81px;
-   top: 490px;
-   left:23px;
+   top: 430px;
+   left: 50px;
    font-size: 10px;
    line-height: 26.66px;
    letter-spacing: -3.5%;
@@ -144,14 +144,14 @@ footer {
    width: 216px;
    height: 62px;
    position: absolute;
-   top: 620px;
+   top: 550px;
    left: 100px;
  }
  footer {
    width: 287px;
    height: 17px;
-   top: 700px;
-   left: 46px;
+   top: 630px;
+   left: 56px;
    font-size: 14px;
    text-align: center;
  }
